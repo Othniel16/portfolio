@@ -8,5 +8,7 @@ export default defineNuxtConfig({
 
     css: [
         "@/assets/global.css",
-    ]
+    ],
+
+    plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
 })
