@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Thunder";
+  src: url("fonts/Thunder-BlackLC.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: 'Thunder', sans-serif;
+}
